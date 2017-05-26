@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage [spanish] {babel} 
+\usepackage [T1]{fontenc}
+\usepackage [latin1]{inputenc}
+\usepackage{float}
+
+\begin{document}
+
+\title{ Metodos Computacionales - Tarea 5}
+\author{Felipe Charris Leal \\ 201318114}
+
+\maketitle
+
+\begin{abstract}
+
+El objetivo de este documento es presentar todos los resultados obtenidos en los archivos de C y python usados en la tarea numero 5 \\ Esta tarea consistia de dos puntos los cuales seran asi mismo las secciones del documento, la primera Canales ionicos, donde por medio de MCMC encontramos el circulo de radio maximo que cabe dentro de un poro, sin tocar ninguna de las moleculas. En la segunda seccion, carga de un circuito RC  se debe Usar un metodo de determinacion bayesiana de parametros con Monte Carlo para obtener R y C a partir de los datos experimentales 
+\end{abstract}
+
+\section{Canales Ionicos}
+
+Presentamos la distribucion de las moleculas de color negro, y de color verde el circulo maximo hallado para cada uno de los paquetes de datos
+
+
+\subsection{Canal ionico 1}
+Para el primer paquete de datos la grafica obtenida es :
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=4.0in]{c1.jpg}
+    \caption{Canal ionico 1}
+    \label{1}
+    
+\end{figure}
+
+Se presenta tambien el histograma respectivo con las coordenadas de x,y:
+
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=3.0in]{histo1.jpg}
+    \caption{Canal ionico 1- histograma}
+    \label{2}
+\end{figure}
+
+\subsection{Canal ionico 2}
+Para el segundo paquete de datos la grafica obtenida es:
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=3.0in]{c2.jpg}
+    \caption{Canal ionico 2}
+    \label{3}
+\end{figure}
+Su histograma con las Coordenadas X,Y es:
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=4.0in]{histo2.jpg}
+    \caption{Canal ionico 2- histograma}
+    \label{4}
+\end{figure}
+
+\section{Carga de un circuito RC}
+
+Se presentan las graficas de los valores de R y de C en funcion de la funcion de verosimilitud 
+
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=4.0in]{carga.jpg}
+    \caption{Canal ionico 2- histograma}
+    \label{4}
+\end{figure}
+
+Asi mismo su histograma
+\begin{figure}[H]
+   \centering
+    \includegraphics[width=4.0in]{HistogramaCarga.jpg}
+    \caption{Canal ionico 2- histograma}
+    \label{4}
+\end{figure}
+
+\end{document}
